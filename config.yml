@@ -1,11 +1,11 @@
-title: Intermediate Python
+title: Lab Algorithme du BFS en Python 
 tagline: 'Random numbers, variables, and conditionals'
 description: Learn how to create a dice-rolling app with Python!
 tags:
   - Python
 template:
-  name: intermediate-python-course
-  repo: intermediate-python-course-template
+  name: lab-algorithme-du-bfs-en-python
+  repo: lab-algorithme-du-bfs-en-python-course-template
   description: an intermediate Python course
 before:
   - type: createIssue
