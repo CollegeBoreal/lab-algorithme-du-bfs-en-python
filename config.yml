@@ -36,7 +36,7 @@ steps:
         title: Utilisation de variables
         body: 02-variables.md
   - title: Utiliser les Variables
-    description: Défini des variables avec une saisie aléatoire random pour simuler un dé
+    description: Définit des variables avec une saisie aléatoire random pour simuler un dé
     event: issue_comment
     link: '{{ repoUrl }}/issues/2'
     actions:
