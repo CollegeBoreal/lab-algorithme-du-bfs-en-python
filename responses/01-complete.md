@@ -1,5 +1,5 @@
-Great! 
+Super! 
 
-You will be pushing code to your [own repository]({{ repoUrl }}) several times as a reference.
+Apprètes toi à soumettre du code dans ton propre [référentiel]({{ repoUrl }}) plusieurs fois à travers le laboratoire.
 
-[Click here to for the next steps]({{ repoUrl }}/issues/2)
+[Pour continuer appuies ici =>]({{ repoUrl }}/issues/2)
