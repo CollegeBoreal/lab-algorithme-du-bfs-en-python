@@ -61,9 +61,9 @@ PS > choco install git.install
 
 ## :ab: Cloner le référentiel
 
-Now that we have Git, we can clone the repository containing the building block of the code you'll be writing. In the terminal type `git clone {{ repoUrl }}`
+Maintenant que nous avons Git, nous pouvons cloner le référentiel contenant block d'assemblage du code quer tu vas écrire. Dans un terminal tapes `git clone {{ repoUrl }}`, la version `SSH` est également recommandée
 
-![image](images/SSH.png)
+<img src="https://help.github.com/assets/images/help/repository/remotes-url.png"></img>
 
 Inside the repo you'll see two files:
 
