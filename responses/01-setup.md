@@ -63,6 +63,8 @@ PS > choco install git.install
 
 Now that we have Git, we can clone the repository containing the building block of the code you'll be writing. In the terminal type `git clone {{ repoUrl }}`
 
+![image](images/SSH.png)
+
 Inside the repo you'll see two files:
 
 - `README.md`: a markdown file that details some info about the project
