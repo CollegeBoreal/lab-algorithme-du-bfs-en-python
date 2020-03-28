@@ -1,6 +1,8 @@
-Welcome to this (mildly) advanced Python tutorial! Today we'll be writing a script to mimic a common real-world action. If you've ever played a tabletop game, you know there are many dice rolls to make. This tutorial will show how to harness a combination of Python skills to make an automatic dice roller. But first, before we do that, we'll need to get a few things set up on your system. 
+  Bienvenue dans ce laboratoire qui te guidera à écrire un programme dans le language [Python](https://www.python.org). Le programme se concentrera sur l'étude de l'algorithme permettant l'étude de la recherche binaire basée sur le [BFS](https://en.wikipedia.org/wiki/Breadth-first_search). Avant de commencer, nous allons nous assurer que l'environnement de développement est prêt. 
 
-## Having Python 
+## Installer Python 
+
+:one: installer Python avec un `Package manager`
 
 First, in order to do anything in Python, you need to *have* Python on your computer! Let's make sure it's installed. Open up a terminal and type `python -V. There are a few possible things it can output here:
 
