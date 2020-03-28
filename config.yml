@@ -1,19 +1,19 @@
-title: Lab Algorithme du BFS en Python 
+title: Lab Algorithme du BFS en Python
 tagline: 'Random numbers, variables, and conditionals'
-description: Learn how to create a dice-rolling app with Python!
+description: Apprendre à écrire une recherche arborescente en Python!
 tags:
   - Python
 template:
   name: lab-algorithme-du-bfs-en-python
   repo: lab-algorithme-du-bfs-en-python-course-template
-  description: an intermediate Python course
+  description: Recherche BFS en Python
 before:
   - type: createIssue
-    title: Set up your project
+    title: Installe ton projet
     body: 01-setup.md
 steps:
-  - title: Set up your project
-    description: Introduces the project and how to set it up
+  - title: Install ton projet
+    description: Introduit le project et comment l'installer
     event: issue_comment
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -22,8 +22,8 @@ steps:
         issue: 1
         data:
           game: '%payload.comment.body%'
-  - title: Running a Python program
-    description: Run a python program with a main method
+  - title: Éxécuter un programme Python 
+    description: Éxécute un programme Python avec la fonction main
     event: push
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -33,10 +33,10 @@ steps:
       - type: closeIssue
         issue: 1
       - type: createIssue
-        title: Using Variables
+        title: Utilisation de variables
         body: 02-variables.md
-  - title: Using Variables
-    description: Define variables with random input to simulate a die-roll
+  - title: Utiliser les Variables
+    description: Défini des variables avec une saisie aléatoire random pour simuler un dé
     event: issue_comment
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -45,8 +45,8 @@ steps:
         issue: 2
         data:
           roll: '%payload.comment.body%'
-  - title: Rolling multiple Dice
-    description: Roll multiple dice and add their results
+  - title: Jeter plusieurs dés
+    description: Jette plusieurs dés et cumule leur résultats
     event: push
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -56,10 +56,10 @@ steps:
       - type: closeIssue
         issue: 2
       - type: createIssue
-        title: Adding Conditionals
+        title: Ajout de conditions
         body: 03-conditionals.md
-  - title: Adding Conditionals
-    description: Add some flavor to your responses with conditionals
+  - title: Ajouter des conditions
+    description: Ajoute une saveur a tes réponses avec des conditions
     event: issue_comment
     link: '{{ repoUrl }}/issues/3'
     actions:
@@ -76,8 +76,8 @@ steps:
         with: 03-lucky.md
         data:
           rollNum: '%payload.comment.body%'
-  - title: Adding User Input
-    description: Allow users to input the number and size of dice
+  - title: Ajouter la saisie d'un utilisateur
+    description: Authorise les utilisateurs à saisir le nombre é la taille des dés
     event: push
     link: '{{ repoUrl }}/issues/3'
     actions:
