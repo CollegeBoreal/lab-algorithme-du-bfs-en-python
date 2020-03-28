@@ -63,11 +63,11 @@ PS > choco install git.install
 
 Maintenant que nous avons Git, nous pouvons cloner le référentiel contenant block d'assemblage du code quer tu vas écrire. Dans un terminal tapes `git clone {{ repoUrl }}`, la version `SSH` est également recommandée
 
-Inside the repo you'll see two files:
+Dans le référentiel, il y a deux fichiers:
 
-- `README.md`: a markdown file that details some info about the project
-- `dice-roller.py`: a Python file containing the code you'll be building off of
+- `README.md`: un fichier `markdown` donnant des informations sur le laboratoire
+- `b000000000.py`: un fichier Python contenant le code à construire
 
-Now that we have everything we need, we can actually begin writing our dice roller! Let's begin! 
+Maintenant que tout est en place, nous pouvons commencer.
 
-Leave a comment with *your favorite dice-rolling game* to continue.
+Laisses un commentaire avec ton *:id:* github pour continuer.
