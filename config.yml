@@ -9,10 +9,10 @@ template:
   description: Recherche BFS en Python
 before:
   - type: createIssue
-    title: Installe ton projet
+    title: Installer son projet
     body: 01-setup.md
 steps:
-  - title: Install ton projet
+  - title: Installer son projet
     description: Introduit le project et comment l'installer
     event: issue_comment
     link: '{{ repoUrl }}/issues/1'
