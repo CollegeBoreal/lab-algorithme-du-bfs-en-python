@@ -21,7 +21,7 @@ steps:
         with: 01-running.md
         issue: 1
         data:
-          game: '%payload.comment.body%'
+          id: '%payload.comment.body%'
   - title: Éxécuter un programme Python 
     description: Éxécute un programme Python avec la fonction main
     event: push

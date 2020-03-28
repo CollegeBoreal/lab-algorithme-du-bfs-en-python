@@ -1,35 +1,43 @@
-{{ game }}! Wow that's a classic! You might be able to make a version of {{ game }} when we are done!
+Cher {{ id }}, il est temps de faire de la programmation!
 
-## Running a Python file
+## Exécuter un programme Python
 
-Let's look at our Python file. Inside we see a function `main` that will contain all of your commands as you create the dice roller:
+Voyons voir notre programme Python, on peut y voir une fonction `main` qui contiendra toutes les instructions pour écrire l'algorithme:
 
 ```python
+# -*- coding: utf-8 -*-
+"""
+
+@author: CollegeBoreal
+"""
+
 def main():
-    #print('You rolled a die')
+  #print('Informatique: le rêve')
 ```
 
-Below that, you'll see an `if` statement calling that function:
+En dessous de la fonction, on trouvera un `if` appellant cette fonction:
 
 ```python
 if __name__== "__main__":
     main()
 ```
-By doing this, the function `main` will run whenever you run the Python script. As you develop the dice roller, be sure to only manipulate the code within the `main` function; nothing else will need to be changed. 
 
-Right now the only line in our `main` function is a `print()` function:`#print('You rolled a die')`. This will print whatever is inside the parenthesis. There's a `#` in front of it right now, which means it's a comment. Uncomment it by removing the `#` to let Python read it, and save the file.
+En faisant cela, la fonction `main` s'èxècutera tant que le programme Python est éxécuté.
 
-You can run the Python script by typing `python dice_roller.py` in a terminal, provided you're in the correct directory. If not, run the script by typing `python /path/to/directory/dice_roller.py`, where `/path/to/directory` is replaced with the path to the file on your own system.
+Dans la fonction `main`, enlève le commentaire se trouvant sur la ligne:`#print('Informatique: le rêve')`. Cela permettra d'afficher le texte qui se trouve entre les parenthèses. Il y a un `#` devant la ligne, qui veut dire que c'est un commentaire. Enlève le commentaire par le retrait du `#` permettant à Python de lire la ligne et sauveguarde le fichier.
 
-You'll see the following nifty, albeit not very useful line printed out in your terminal: "You've rolled a die". We'll make it more informative in a bit, but first, let's push those changes to GitHub. 
+Pour éxécuter le programme Python taper `python b000000000.py` dans le terminal. Le programme Python doit se trouver dans le même répertoire ou l'on se trouve.
+
+Après l'éxécution, sur votre terminal s'affichera: "Informatique: le rêve". Nous ferons mieux dans quelques instants mais pour l'instant, il faut soummetre le code vers GitHub. 
 
 
-## Pushing your changes
+## Soumettre les modifications
 
-Whenever you change files in your repository, you'll want to `add` and `commit` the file, which allows you to add a message detailing what you changed. Then you can `push` the updated version, along with your comments, to GitHub. 
+Chaque changement de fichiers dans votre référentiel, il faut  `ajouter` et `signer` le fichier, qui te permettra de formuler un message detailant ce que tu as changé. Ensuite tu peux `soumettre` une version mise à jour, en même temps que tes commentaires, vers GitHub. 
 
-Let's do those three steps:
+Faisons ces trois étapes:
 
-1. Git Add: `git add dice_roller.py`
-2. Git Commit: `git commit -m "I uncommented line 2"`
-3. Git Push: `git push`
+1. Ajouter dans Git: `git add b000000000.py`
+2. Signer dans Git: `git commit -m "Enlever le commentaire de la ligne 2"`
+3. Soumettre à Git: `git push`
+
