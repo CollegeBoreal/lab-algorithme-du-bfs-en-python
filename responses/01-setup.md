@@ -1,22 +1,65 @@
   Bienvenue dans ce laboratoire qui te guidera à écrire un programme dans le language [Python](https://www.python.org). Le programme se concentrera sur l'étude de l'algorithme permettant l'étude de la recherche binaire basée sur le [BFS](https://en.wikipedia.org/wiki/Breadth-first_search). Avant de commencer, nous allons nous assurer que l'environnement de développement est prêt. 
 
-## Installer Python 
+## :a: Installer Python 
+
+:zero: Présence de Python
+
+Ouvrir un terminal et vérifier la version de Python avec la commande suivante
+
+```
+% python --version
+```
+
+Si Python est installé, le résultat de la commande donnera une version. Cette version doit être superieure à `3.x.x`
 
 :one: installer Python avec un `Package manager`
 
-First, in order to do anything in Python, you need to *have* Python on your computer! Let's make sure it's installed. Open up a terminal and type `python -V. There are a few possible things it can output here:
+Si Python n'est pas installé, utiliser un gestionnaire de librairies.
 
-If the output begins with `Python 3`, you're good to go! This tutorial was tested on a system running Python 3.7.4, but it should be compatible with any version of Python 3. 
+:computer: Windows avec [choco](https://chocolatey.org/install)
 
-If the output begins with `Python 2`, you have Python, but it's an outdated version. You'll need to download Python 3 to follow this tutorial. Go to the [Python](https://www.python.org/downloads/) website to download it.
+```
+PS > choco install anaconda3
+```
 
-If you get a command that reads something similar to `command not found`, no version of Python is on your system. You'll need to go to the [Python](https://www.python.org/downloads/) website to download it.
+:apple: MacOS avec [HomeBrew](https://docs.brew.sh/Installation)
 
-## Having Git
+```
+% brew cask install anaconda 
+% echo 'export PATH="/usr/local/anaconda3/bin:$PATH"' >> ~/.zshrc 
+```
 
-We also need to make sure Git is installed on your system. Check that by typing `git --version` in a terminal. If it outputs a `git version` you're good to go! If not, go to the [Git](https://git-scm.com/downloads) website to download it.
+:warning: Ce laboratoire n'utilise pas Python **2**
 
-## Cloning this Repository
+## :b: Installer [Git](https://git-scm.com/downloads)
+
+:two: Présence de Git
+
+Ouvrir un terminal et vérifier la version de Git avec la commande suivante
+
+```
+% git --version
+```
+
+Si le résultat donne un numéro de version. C'est parfait sinon
+
+:four: installer Git avec un `Package manager`
+
+Si Git n'est pas installé, utiliser un gestionnaire de librairies.
+
+:computer: Windows avec [choco](https://chocolatey.org/install)
+
+```
+PS > choco install git.install
+```
+
+:apple: MacOS avec [HomeBrew](https://docs.brew.sh/Installation)
+
+```
+% brew install git
+```
+
+## :ab: Cloner le référentiel
 
 Now that we have Git, we can clone the repository containing the building block of the code you'll be writing. In the terminal type `git clone {{ repoUrl }}`
 
