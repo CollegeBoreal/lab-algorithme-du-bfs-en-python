@@ -63,8 +63,6 @@ PS > choco install git.install
 
 Maintenant que nous avons Git, nous pouvons cloner le référentiel contenant block d'assemblage du code quer tu vas écrire. Dans un terminal tapes `git clone {{ repoUrl }}`, la version `SSH` est également recommandée
 
-<img src="https://github.com/CollegeBoreal/lab-algorithme-du-bfs-en-python-course-template/blob/master/.images/SSH.png" width="441" height="223"></img>
-
 Inside the repo you'll see two files:
 
 - `README.md`: a markdown file that details some info about the project
