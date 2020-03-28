@@ -1,8 +1,6 @@
-Cher {{ id }}, il est temps de faire de la programmation!
+Chèr.e {{ id }}, il est temps de faire de la programmation!
 
-## Exécuter un programme Python
-
-Voyons voir notre programme Python, on peut y voir une fonction `main` qui contiendra toutes les instructions pour écrire l'algorithme:
+## :zero: Changer l'auteur du programme Python
 
 ```python
 # -*- coding: utf-8 -*-
@@ -10,7 +8,15 @@ Voyons voir notre programme Python, on peut y voir une fonction `main` qui conti
 
 @author: CollegeBoreal
 """
+```
 
+Modifier le programme Python avec l'éditeur de ton choix et changer l'auteur `CollegeBoreal` avec ton :id: Github
+
+## :one: Exécuter un programme Python
+
+Voyons voir le programme Python, on peut y voir une fonction `main` qui contiendra toutes les instructions pour écrire l'algorithme:
+
+```python
 def main():
   #print('Informatique: le rêve')
 ```
@@ -31,13 +37,12 @@ Pour éxécuter le programme Python taper `python b000000000.py` dans le termina
 Après l'éxécution, sur votre terminal s'affichera: "Informatique: le rêve". Nous ferons mieux dans quelques instants mais pour l'instant, il faut soummetre le code vers GitHub. 
 
 
-## Soumettre les modifications
+## :two: Soumettre les modifications
 
 Chaque changement de fichiers dans votre référentiel, il faut  `ajouter` et `signer` le fichier, qui te permettra de formuler un message detailant ce que tu as changé. Ensuite tu peux `soumettre` une version mise à jour, en même temps que tes commentaires, vers GitHub. 
 
-Faisons ces trois étapes:
+:round_pushpin: Faisons ces trois étapes:
 
 1. Ajouter dans Git: `git add b000000000.py`
-2. Signer dans Git: `git commit -m "Enlever le commentaire de la ligne 2"`
+2. Signer dans Git: `git commit -m "Enlever le commentaire de la ligne 8"`
 3. Soumettre à Git: `git push`
-
