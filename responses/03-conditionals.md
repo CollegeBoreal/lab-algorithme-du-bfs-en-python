@@ -1,10 +1,10 @@
-Let's add some flavor to our responses, dependent on how we roll. We can do this by using conditionals. We'll put a command that only triggers if a certain condition is met. For example, let's add "Critical Fail" in the printed statement if the die roll is a one.
+Continuons maintenant dans une recherche arborescente plus approfondie.
 
-In Python, we can set this as the criteria by replacing our print statement in the loop with:
+Pour naviguer dans la queue, on va demander aux personnes de sortir par la gauche __(du bus)__ 
 
 ```python
-if roll == 1:
-  print(f'You rolled a {roll}! Critical Fail')
+    while search_queue:
+       personne = search_queue.popleft()
 ```
 
 But what if it's *not* a one? We need a catch-all for all the other conditions it could be. This is done in Python with the `else` command. Below our `if` statement and the related print function, add an `else` statement:
