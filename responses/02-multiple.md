@@ -63,12 +63,12 @@ PS > python b000000000.py
 % python b000000000.py
 ```
 
-:warning: Retiens bien le chiffre que le programme a imprimé, c'est la `taille` :trophy: de ceux qui vont passer en premier pour répondre au questionnaire.
+:warning: Mets le chiffre que le programme a imprimé dans le message de ta signature `commit` à la soumission de ton programme.
 
 
 **Soumets ton code** vers GitHub pour continuer:
 ```
 git add b000000000.py
-git commit -m "Et le bus s'en est allé"
+git commit --message "La taille de la queue est <mon chiffre ICI>"
 git push
 ```
