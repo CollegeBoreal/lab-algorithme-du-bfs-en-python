@@ -44,7 +44,7 @@ steps:
         with: 02-multiple.md
         issue: 2
         data:
-          roll: '%payload.comment.body%'
+          taille: '%payload.comment.body%'
   - title: Jeter plusieurs dés
     description: Jette plusieurs dés et cumule leur résultats
     event: push
