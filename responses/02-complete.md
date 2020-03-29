@@ -1,3 +1,3 @@
-🎲🎲 Snake Eyes! 🐍
+:tada::confetti_ball: Encore plus de :snake: ?
 
-[Click here]({{ repoUrl }}/issues/3) to learn how to add some custom responses!
+[Suis la flèche :right_arrow:]({{ repoUrl }}/issues/3) pour apprendre à manipuler l'algorithme du BFS!
