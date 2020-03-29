@@ -1,4 +1,4 @@
-Tu as entré {{ taille }} , j'ai trouvé :one::four:. Cela n'a pas trop d'importance pour l'instant continuant.
+Tu as entré {{ taille }} , j'ai trouvé :one::four: . Cela n'a pas trop d'importance pour l'instant, continuons!.
 
 ## - [ ] Déterminons la personne élue
 
