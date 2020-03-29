@@ -66,7 +66,7 @@ PS > python b000000000.py
 :warning: Retiens bien le chiffre que le programme a imprimé, c'est la `taille` :trophy: de ceux qui vont passer en premier pour répondre au questionnaire.
 
 
-**Soumet ton code** vers GitHub pour continuer:
+**Soumets ton code** vers GitHub pour continuer:
 ```
 git add b000000000.py
 git commit -m "Et le bus s'en est allé"
