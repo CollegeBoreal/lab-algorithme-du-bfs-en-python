@@ -38,7 +38,7 @@ if __name__== "__main__":
    search("Boris")
 ```
 
-- [ ] La fonction `search` a plutôt l'air d'avoir un effet secondaire `side effects` car toute définition de recherche devrait retourner un booléen et devrait afficher autre chose que ce que l'on a actuellement. Pour y remédier, nous allons lui donner une valeur de retour par défaut, disons toujour vrai `True` et temporairement afficher la taille des valeurs comprenant notre arbre `eleves`.
+- [ ] La fonction `search` a plutôt l'air d'avoir un effet secondaire `side effects` car toute définition de recherche devrait retourner un booléen et devrait afficher autre chose que ce que l'on a actuellement. Pour y remédier, nous allons lui donner une valeur de retour par défaut, disons toujour faux `False` car on n'a rien trouvé et temporairement afficher la taille des valeurs comprenant notre arbre `eleves`.
 
 ```python
 def search(name):
