@@ -1,5 +1,7 @@
-Wow, it took {{ rollNum }} rolls? 😮 According to my calculations, that is longer than average... Oh well, you don't need good luck if you have python skills! 😎 🐍
+{{ personne }} :x: :x: :x: 
 
-## Adding User Input
+Cette réponse n'a pas l'air de correspondre avec nos prédictions
 
-Entrer un autre chiffre
+## Ne pas se décourager
+
+:arrow_right: Entrer un autre commentaire
