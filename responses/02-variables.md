@@ -28,15 +28,22 @@ eleves["Souleyman"]=[]
 eleves["Zack"]=[]
 ```
 
-- [ ] Notre programme étant une recherche, on va remplacer la fonction `main` par `search` en lui donnant un paramètre en entrée `name` afin de lui donner le premier nom dans l'arbre.
+- [ ] Notre programme étant une recherche, on va remplacer la fonction `main` par `search` en lui donnant un paramètre en entrée `name`. Afin de lui donner le premier nom dans l'arbre, dans le block `if __name__ == "__main__"` on écrira la nouvelle fonction et son paramètre d'entrée: `search("Boris")`. Le code se présentera comme ceci.
+
+```python
+def search(name):
+   print('Informatique: le rêve')
+
+if __name__== "__main__":
+   search("Boris")
+```
+
+- [ ] La fonction `search` a plutôt l'air d'avoir un effet secondaire `side effects` car toute définition de recherche devrait retourner un booléen et devrait afficher autre chose que ce que l'on a actuellement. Pour y remédier, nous allons lui donner une valeur de retour par défaut, disons toujour vrai `True` et temporairement afficher la taille des valeurs comprenant notre arbre `eleves`.
 
 ```python
 def search(name):
    print( len(eleves.values()) )
    return False
-
-if __name__== "__main__":
-   search("Boris")
 ```
 
 Now run the code and put *the number* you rolled as a comment, and then we'll keep this tutorial *rolling*!
