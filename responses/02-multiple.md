@@ -63,7 +63,7 @@ PS > python b000000000.py
 % python b000000000.py
 ```
 
-:warning: Retiens bien le chiffre que le programme à imprimer, c'est la `taille` de ceux qui vont passer en premier pour répondre au questionnaire.
+:warning: Retiens bien le chiffre que le programme a imprimé, c'est la `taille` :trophy: de ceux qui vont passer en premier pour répondre au questionnaire.
 
 
 **Soumet ton code** vers GitHub pour continuer:
