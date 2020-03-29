@@ -34,7 +34,7 @@ Dans la fonction `main`, enlève le commentaire se trouvant sur la ligne:`#print
 
 Pour éxécuter le programme Python taper `python b000000000.py` dans le terminal. Le programme Python doit se trouver dans le même répertoire ou l'on se trouve.
 
-Après l'éxécution, sur votre terminal s'affichera: "Informatique: le rêve". Nous ferons mieux dans quelques instants mais pour l'instant, il faut soummetre le code vers GitHub. 
+Après l'éxécution, sur votre terminal s'affichera: "Informatique: le rêve". Nous ferons mieux dans quelques instants mais pour l'instant, il faut soumettre le code vers GitHub. 
 
 
 ## :two: Soumettre les modifications
