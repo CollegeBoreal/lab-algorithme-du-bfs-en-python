@@ -46,4 +46,4 @@ def search(name):
    return False
 ```
 
-Now run the code and put *the number* you rolled as a comment, and then we'll keep this tutorial *rolling*!
+Maintenant fais tourner ton code et mets le *nombre* de valeurs que tu as trouvé dans le commentaire et faisons rouler ce tutoriel!
