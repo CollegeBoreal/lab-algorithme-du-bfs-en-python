@@ -1,75 +1,50 @@
-You rolled a {{ roll }}? 😄 Nice!
+Tu as entré {{ taille }} , j'ai trouvé :one::four:. Cela n'a pas trop d'importance pour l'instant continuant.
 
-## Making Python Roll Multiple Dice
-Before moving on, make sure the `main` function contains:
+## - [ ] Déterminons la personne élue
+
+Pour que notre algorithme fonctionne, nous allons assigner une personne qui nous permettra d'arrêter notre recherche.
+Notre recherche consiste à trouver la personne dans la classe qui possède un ordinateur Apple :apple:. Pour cela, on va poser la question à tous les étudiants, trouver la première personne qui correspond à notre critère d'élection et stopper notre recherche en retournant `vrai` sinon aller jusqu'au bout de l'arbre et ramener `faux`. Créons une fonction, à part, que l'on nommera `personne_elue` et posons la question si la personne courante `name` est bien l'èlue.
+
+:bulb: On va écrire notre fonction juste après la déclaration de notre arbre `eleves`
 
 ```python
-import random
-roll = random.randint(1, 6)
-print(f'You rolled a {roll}')
+def personne_elue(name):
+    return name == 'Zoureni'
 ```
 
-Now, what if we wanted to roll two dice? Well, one way to do that is to run the file twice. Another way is to duplicate the print statement within the file. However, this would get tedious for larger projects, so let's make use of a great Python feature: `for` loops. A `for` loop iterates over a range of values and performs a set of commands for all of those values. 
+Maintenant que nous avons notre cas de base `base case` si on pense à la récursion, on va utiliser une autre `structure de données` pour ordonner notre recherche.  
 
-How many dice do we want to roll? Let's go with two for now. Make a variable called `dice_rolls` below `import random` but above everything else, and set it equal to two.
+## - [ ] Soyons ordonné
 
-Now let's make the `for loop`. Right below where you set `dice_rolls` type:
+Pour cela, nous allons demander à nos étudiants qui sont à proximiter de se mettre en ligne comme quand on prend le bus. Nous allons placer nos étudiants en ligne appellé `Queue`, en Python cela s'appelle `deque` pour [Double Ended Queue](https://en.wikipedia.org/wiki/Double-ended_queue). Juste après la fonction `personne_elue`, écrire la ligne suivante permettant d'aller chercher `(importer)` le code de la `queue` dans une autre librairie appelée `collections`
 
 ```python
-for i in range(0,dice_rolls):
+from collections import deque
 ``` 
 
-Let's unpack what this means. If we were to make this a grammatical sentence it would read something like this:
-
-"`for` every `i`ndex `in` a `range` starting after `0` until the value is equal to `dice_rolls`, do this`:`"
-
-We would then have a set of commands it would do for every `i`. We already have the commands we want to be repeated, we just have to tell Python that by indenting them. Once they're indented, save the file and run it to get the two rolls.
-
-## Manipulating Variables
-
-With a `for` loop implemented, your main function takes this form:
+Donnons à la queue le nom d'une variable que l'on pourrait appeller `search_queue`. Pour initialiser `search_queue`, c'est à dire la créer en mémoire, on utilise la fonction `deque()` en Python. 
 
 ```python
-dice_rolls = 2
-for i in range(0,dice_rolls):
-  roll = random.randint(1,6)
-  print(f'You rolled a {roll}')
+search_queue = deque()
 ```
 
-In most game situations, rolling multiple dice is followed by adding their values together. Let's do that now. In Python, arithmetic can be performed on variables just by using the equivalent mathematical symbols. Want to add two variables together? It's as simple as: `variable_sum = variable_1 + variable_2`. Since our dice values are stored in a single updating variable instead of separate variables, however, we'll have to add the values upon themselves. First, make a variable called dice_sum above the `for` loop, and set it equal to 0:
+Pour placer des personnes à la file, on utilise `l'affectation` suivante 
 
 ```python
-dice_sum = 0
+search_queue += eleves[name]
 ```
 
-We'll be adding each value of `dice_roll` we get to this `dice_sum` variable as we loop through each dice roll. In the `for` loop, right after the `roll` variable is assigned, type:
+Nous n'avons pas encore placé l'initialisation et l'affectation de notre variable `search_queue`. Pour cela, nous allons placer `search_queue` dans la fonction `search()` comme montré ci-dessous:
 
 ```python
-dice_sum = dice_sum + roll
+def search(name):
+   search_queue = deque()
+   search_queue += eleves[name]
+   print( len(search_queue) )
+   return False
 ```
 
-Another way we can do this in Python is using the `+=` operator:
-
-```python
-dice_sum += roll
-```
-
-It doesn't matter which version you prefer, just go with whichever way is easier for you to visualize. Finally, let's print out our final value for `dice_sum`. After the `for` loop is finished, type:
-```python
-print(f'You have rolled a total of {dice_sum}')
-```
-Make sure this statement is not indented (since that would include it in the for loop). Overall, your main function should look like this:
-
-```python
-dice_rolls = 2
-dice_sum = 0
-for i in range(0,dice_rolls):
-  roll = random.randint(1,6)
-  dice_sum += roll
-  print(f'You rolled a {roll}')
-print(f'You have rolled a total of {dice_sum}')
-```
-If you save and run the file, you'll now get the values of the two dice rolls and their combined sum. Now our code is developing some complexity!
+Le code de la fonction `search()` place maintenant les premières personnes à la queue leu leu et le nom de cette personne est donné par le paramètre de la fonction `search()` qui est `name`. Déterminons la taille de la première série de queue en affichant sa taille avec la fonction `len()`
 
 **Push your code** to GitHub to continue:
 ```
