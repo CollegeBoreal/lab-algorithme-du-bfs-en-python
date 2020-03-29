@@ -1,6 +1,6 @@
 Chèr.e {{ id }}, il est temps de faire de la programmation!
 
-## :zero: Changer l'auteur du programme Python
+- [ ] Changer l'auteur du programme Python
 
 ```python
 # -*- coding: utf-8 -*-
@@ -12,7 +12,7 @@ Chèr.e {{ id }}, il est temps de faire de la programmation!
 
 Modifier le programme Python avec l'éditeur de ton choix et changer l'auteur `CollegeBoreal` avec ton :id: Github
 
-## :one: Exécuter un programme Python
+- [ ] Exécuter un programme Python
 
 Voyons voir le programme Python, on peut y voir une fonction `main` qui contiendra toutes les instructions pour écrire l'algorithme:
 
@@ -37,7 +37,7 @@ Pour éxécuter le programme Python taper `python b000000000.py` dans le termina
 Après l'éxécution, sur votre terminal s'affichera: "Informatique: le rêve". Nous ferons mieux dans quelques instants mais pour l'instant, il faut soumettre le code vers GitHub. 
 
 
-## :two: Soumettre les modifications
+- [ ] Soumettre les modifications
 
 Pour chaque changement de fichiers dans ton référentiel, il faut  `ajouter` et `signer` le fichier qui te permet de formuler un message detailant ce que tu as changé. Ensuite tu peux `soumettre` une version mise à jour, en même temps que tes commentaires, vers GitHub. 
 
