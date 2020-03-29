@@ -39,7 +39,7 @@ Après l'éxécution, sur votre terminal s'affichera: "Informatique: le rêve". 
 
 ## :two: Soumettre les modifications
 
-Chaque changement de fichiers dans votre référentiel, il faut  `ajouter` et `signer` le fichier, qui te permettra de formuler un message detailant ce que tu as changé. Ensuite tu peux `soumettre` une version mise à jour, en même temps que tes commentaires, vers GitHub. 
+Pour chaque changement de fichiers dans ton référentiel, il faut  `ajouter` et `signer` le fichier qui te permet de formuler un message detailant ce que tu as changé. Ensuite tu peux `soumettre` une version mise à jour, en même temps que tes commentaires, vers GitHub. 
 
 :round_pushpin: Faisons ces trois étapes:
 
