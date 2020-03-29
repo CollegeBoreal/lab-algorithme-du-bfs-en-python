@@ -71,11 +71,11 @@ steps:
           - type: respond
             with: 03-unlucky.md
             data:
-              rollNum: '%payload.comment.body%'
+              personne: '%payload.comment.body%'
       - type: respond
         with: 03-lucky.md
         data:
-          rollNum: '%payload.comment.body%'
+          personne: '%payload.comment.body%'
   - title: Ajouter la saisie d'un utilisateur
     description: Authorise les utilisateurs à saisir le nombre é la taille des dés
     event: push
