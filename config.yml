@@ -65,8 +65,8 @@ steps:
     actions:
       - type: gate
         left: '%payload.comment.body%'
-        operator: <
-        right: 3
+        operator: ==
+        right: 14
         else:
           - type: respond
             with: 03-unlucky.md
