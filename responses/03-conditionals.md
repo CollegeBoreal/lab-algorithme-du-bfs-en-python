@@ -1,6 +1,6 @@
 Continuons maintenant dans une recherche arborescente plus approfondie.
 
-Pour naviguer dans la queue, on va demander aux personnes de sortir par la gauche __(du bus)__ 
+Pour naviguer dans la queue, on va demander aux personnes de sortir par la gauche `(du bus)` 
 
 ```python
     while search_queue:
