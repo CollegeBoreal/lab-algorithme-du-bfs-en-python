@@ -36,7 +36,7 @@ La traversée de l'abre est presqu'inutile car nous l'avons traversé dans son e
          return True
 ```
 
-:bulb: Le code final de notre algorithme devrait ressembler à ceci, tapes le code ci dessous dans ton programme:
+:bulb: Le code final de notre algorithme devrait ressembler à ceci, vérifie que le code ci dessous correspond à celui de ton programme:
 
 ```python
    while search_queue:
