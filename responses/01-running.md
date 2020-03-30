@@ -36,7 +36,7 @@ Dans la fonction `main`, enlève le commentaire se trouvant sur la ligne:`#print
 
 Pour éxécuter le programme Python taper `python b000000000.py` dans le terminal. Le programme Python doit se trouver dans le même répertoire ou l'on se trouve.
 
-* Sous Powershell (Sous windows utilise la champ recherche et tape `Anaconda Powershell` )
+* Sous Powershell (Sous windows utilise le champ recherche de ta barre d'icône et tape `Anaconda Powershell` )
 
 ```
 PS > python b000000000.py
