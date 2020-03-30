@@ -1,9 +1,9 @@
-Good work finishing the intermediate python course!
+Félicitations, tu viens de terminer le laboratoire!
 
-Now you have an awesome tool to use at your next game night! 
+Tu as maintenant tout un code Python te permettant d'explorer l'algorithme du BFS
 
-Here are some potential *Next Steps* for you:
+Ce que tu peux faire d'autres :
 
-1. Add more inputs (like player or team name).
-2. Store each player's roll totals in separate arrays.
-3. Choose a dice-based game that you can fully simulate using python. 
+1. Change l'arbre à ton gout en respectant les chemins et évitant les cycles potentiels.
+2. Change la fonction permettant de sortie de la recherche.
+3. Évite la boucle en utilisant les notions de programmation fonctionelle. 
