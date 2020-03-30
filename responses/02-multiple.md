@@ -51,18 +51,6 @@ Maintenant, le code de la fonction `search()` place les premières personnes à 
 
 - [ ] Fais tourner ton programme dans ton terminal
 
-* Sous Powershell
-
-```
-PS > python b000000000.py
-```
-
-* Sous ZSH
-
-```
-% python b000000000.py
-```
-
 :warning: Mets le chiffre que le programme a imprimé dans le message de ta signature `commit` à la soumission de ton programme.
 
 
