@@ -32,7 +32,22 @@ En faisant cela, la fonction `main` s'èxècutera tant que le programme Python e
 
 Dans la fonction `main`, enlève le commentaire se trouvant sur la ligne:`#print('Informatique: le rêve')`. Cela permettra d'afficher le texte qui se trouve entre les parenthèses. Il y a un `#` devant la ligne, qui veut dire que c'est un commentaire. Enlève le commentaire par le retrait du `#` permettant à Python de lire la ligne et sauveguarde le fichier.
 
+- [ ] Fais tourner ton programme dans ton terminal
+
 Pour éxécuter le programme Python taper `python b000000000.py` dans le terminal. Le programme Python doit se trouver dans le même répertoire ou l'on se trouve.
+
+* Sous Powershell (Sous windows utilise la champ recherche et tape `Anaconda Powershell` )
+
+```
+PS > python b000000000.py
+```
+
+* Sous ZSH (Sous :apple:)
+
+```
+% python b000000000.py
+```
+
 
 Après l'éxécution, sur votre terminal s'affichera: "Informatique: le rêve". Nous ferons mieux dans quelques instants mais pour l'instant, il faut soumettre le code vers GitHub. 
 
