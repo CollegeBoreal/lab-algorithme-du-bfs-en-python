@@ -36,7 +36,7 @@ steps:
         title: Utilisation de variables
         body: 02-variables.md
   - title: Utiliser les Variables
-    description: Définit des variables avec une saisie aléatoire random pour simuler un dé
+    description: Définit l'arbre
     event: issue_comment
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -45,8 +45,8 @@ steps:
         issue: 2
         data:
           taille: '%payload.comment.body%'
-  - title: Jeter plusieurs dés
-    description: Jette plusieurs dés et cumule leur résultats
+  - title: Traverser l'arbre
+    description: Traverser l'arbre à travers une queue
     event: push
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -76,8 +76,8 @@ steps:
         with: 03-lucky.md
         data:
           personne: '%payload.comment.body%'
-  - title: Ajouter la saisie d'un utilisateur
-    description: Authorise les utilisateurs à saisir le nombre é la taille des dés
+  - title: Finaliser en évitant les cycles
+    description: Finaliser en évitant les cycles
     event: push
     link: '{{ repoUrl }}/issues/3'
     actions:
