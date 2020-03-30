@@ -17,7 +17,7 @@ def search(name):
    visitees = []
 ```
 
-- [ ]  Juste après la sortie de la queue `search_queue.popleft()`, on va tester si la `personne` n'a pas été visitée et on insère le block de code de la personne élue et si on ne sort pas de la contion on continue à chercher la proximité des autres étudiants
+- [ ]  Juste après la sortie de la queue `search_queue.popleft()`, on va tester si la `personne` n'a pas été visitée et on insère le block de code de la personne élue et si on ne sort pas de la condition on continue à chercher la proximité des autres étudiants
 
 ```python
       if not personne in visitees:
@@ -33,7 +33,9 @@ def search(name):
          visitees.append(personne)
 ```
 
-:bulb: Si tu as bien suivi le code, tu devrais trouver ceci si tu tapes la commande `git diff` dans ton terminal
+:warning: Attention à respecter l'indentation quand on rajoute le code `if not personne in visitees:`. Tout le block qui suit doit être indenté de 3 espaces.
+
+:bulb: Si tu as bien suivi le code, tu devrais trouver la fonction `search` comme ceci si tu tapes la commande `git diff` dans ton terminal
 
 ```python
  def search(name):
